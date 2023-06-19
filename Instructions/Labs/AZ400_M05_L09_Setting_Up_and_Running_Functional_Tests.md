@@ -20,7 +20,7 @@ lab:
 
 ## Lab overview
 
-[Selenium](http://www.seleniumhq.org/) is a portable open source software-testing framework for web applications. It can operate on almost every operating system. It supports all modern browsers and multiple languages, including .NET (C#) and Java.
+[Selenium](http://www.seleniumhq.org/) is a portable open-source software-testing framework for web applications. It can operate on almost every operating system. It supports all modern browsers and multiple languages, including .NET (C#) and Java.
 
 This lab will teach you how to execute Selenium test cases on a C# web application as part of the Azure DevOps Release pipeline.
 
