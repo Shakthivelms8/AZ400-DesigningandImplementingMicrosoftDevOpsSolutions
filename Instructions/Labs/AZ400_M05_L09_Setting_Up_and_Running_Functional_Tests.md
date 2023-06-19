@@ -124,24 +124,26 @@ In this task, you will configure a self-hosted agent by using the VM you deploye
     | Scopes | Click **Show all scopes** (at the bottom of the window) |
     | Scopes | **Agent Pools** - **Read & Manage** |
 
-17. On the **Success** pane, copy the value of the personal access token to Clipboard.
+17. Click on **Enter** when prompted for providing the agent pool and agent name for selecting default values.
+
+18. On the **Success** pane, copy the value of the personal access token to Clipboard.
 
     > **Note**: Make sure you copy the token. You will not be able to retrieve it once you close this pane.
 
-18. On the **Success** pane, click **Close**.
-19. Switch back to the **Administrator: Command Prompt** window and paste the content of Clipboard and press the **Enter key**.
-20. In the **Administrator: Command Prompt** window, when prompted **Enter agent pool (press enter for default)**, press the **Enter key**.
-21. In the **Administrator: Command Prompt** window, when prompted **Enter agent name (press enter for az40011bvm)**, press the **Enter key**.
-22. In the **Administrator: Command Prompt** window, when prompted **Enter work folder (press enter for _work)**, press the **Enter key**.
-23. In the **Administrator: Command Prompt** window, when prompted **Enter run agent as service (Y/N) (press enter for N)**, press the **Enter key**.
-24. In the **Administrator: Command Prompt** window, when prompted **Enter configure autologon and run agent on startup (Y/N) (press enter for N)**, press the **Enter key**.
-25. Once the agent is registered, in the **Administrator: Command Prompt** window, type **run.cmd** and press the **Enter** to start the agent.
+19. On the **Success** pane, click **Close**.
+20. Switch back to the **Administrator: Command Prompt** window and paste the content of Clipboard and press the **Enter key**.
+21. In the **Administrator: Command Prompt** window, when prompted **Enter agent pool (press enter for default)**, press the **Enter key**.
+22. In the **Administrator: Command Prompt** window, when prompted **Enter agent name (press enter for az40011bvm)**, press the **Enter key**.
+23. In the **Administrator: Command Prompt** window, when prompted **Enter work folder (press enter for _work)**, press the **Enter key**.
+24. In the **Administrator: Command Prompt** window, when prompted **Enter run agent as service (Y/N) (press enter for N)**, press the **Enter key**.
+25. In the **Administrator: Command Prompt** window, when prompted **Enter configure autologon and run agent on startup (Y/N) (press enter for N)**, press the **Enter key**.
+26. Once the agent is registered, in the **Administrator: Command Prompt** window, type **run.cmd** and press the **Enter** to start the agent.
 
     > **Note**: You also need to install the Dac Framework which is used by the application you will be deploying later in the lab.
 
-26. Within the Remote Desktop session to **az40011bvm**, start another instance of the web browser, navigate to the [Microsoft SQL Server Data-Tier Application Framework (18.2) download page](https://www.microsoft.com/download/details.aspx?id=58207&WT.mc_id=rss_alldownloads_extensions) and click **Download**.
-27. On the **Choose the download you want**, select the **EN\x64\DacFramework.msi** checkbox and click **Next**. This will trigger automatic download of the **DacFramework.msi** file.
-28. Once the download of the **DacFramework.msi** file completes, use it to run the installation of the Microsoft SQL Server Data-Tier Application Framework with the default settings.
+27. Within the Remote Desktop session to **az40011bvm**, start another instance of the web browser, navigate to the [Microsoft SQL Server Data-Tier Application Framework (18.2) download page](https://www.microsoft.com/download/details.aspx?id=58207&WT.mc_id=rss_alldownloads_extensions) and click **Download**.
+28. On the **Choose the download you want**, select the **EN\x64\DacFramework.msi** checkbox and click **Next**. This will trigger automatic download of the **DacFramework.msi** file.
+29. Once the download of the **DacFramework.msi** file completes, use it to run the installation of the Microsoft SQL Server Data-Tier Application Framework with the default settings.
 
 #### Task 2: Configure a release pipeline
 
